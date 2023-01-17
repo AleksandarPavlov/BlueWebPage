@@ -5,3 +5,12 @@ html,body{
    background-image: url('assets/images/bg.jpg');
    background-size: 100%;
 }
+
+@media (max-width: 620px){
+    html,body{
+        width: 100%;
+        height: 1000px;
+       background-image: url('assets/images/bg.jpg');
+       background-size: 140%;
+    }
+}

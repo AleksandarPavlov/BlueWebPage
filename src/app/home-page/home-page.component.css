@@ -223,3 +223,55 @@ nav{
     }
     
 }
+
+@media (max-width: 620px){
+    .mainUpperText{
+        float: center;
+        width: 65%;
+        position: absolute;
+        top:25vw;
+        left: 20vw;
+        
+    }
+    #upperTitle{
+        z-index: 9999;
+        font-size: 7.5vw;
+        color:white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .mainUpperText p{
+        color:rgb(195, 195, 195);
+        font-family: 'Roboto', sans-serif;
+        font-size: 2vw;
+    }
+    .mainUpperText button{
+        padding: 2.3vw 5vw;
+        border-radius: 0;
+        font-size: 2vw;
+        background-color: #02BAFE;
+        border: none;
+    }
+    #upperMainImg{
+        width: 170%;
+        float: right;
+        
+        margin-top: 60px;
+        filter:sepia(1) hue-rotate(149deg);
+        opacity: 30%;  
+              
+    }
+    #blueLayer{
+        width: 40%;
+        float: right;
+        
+      
+        position: absolute;
+        top:5%;
+        left:60%
+    
+    
+              
+    }
+    
+  
+}
