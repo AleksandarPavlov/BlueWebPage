@@ -227,27 +227,27 @@ nav{
 @media (max-width: 620px){
     .mainUpperText{
         float: center;
-        width: 65%;
+        width: 85%;
         position: absolute;
         top:25vw;
-        left: 20vw;
+        left: 11vw;
         
     }
     #upperTitle{
         z-index: 9999;
-        font-size: 7.5vw;
+        font-size: 9.8vw;
         color:white;
         font-family: 'Roboto', sans-serif;
     }
     .mainUpperText p{
         color:rgb(195, 195, 195);
         font-family: 'Roboto', sans-serif;
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .mainUpperText button{
-        padding: 2.3vw 5vw;
+        padding: 2.6vw 5.3vw;
         border-radius: 0;
-        font-size: 2vw;
+        font-size: 3vw;
         background-color: #02BAFE;
         border: none;
     }
