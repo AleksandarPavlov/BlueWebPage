@@ -1,0 +1,225 @@
+nav{
+    border-bottom: 1px solid #5D5D5D;
+    background-color: #252931;
+    z-index: 9999;
+}
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    color: white;
+    font-size: 10.5pt;
+    height: 100%;
+    line-height: 100px;
+    
+    padding: 0;
+}
+.nav-item{
+    
+    border-bottom: 3px solid transparent;
+}
+.nav-item:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  border-bottom: 3px solid #2CC1DB;
+
+}
+
+#logoTitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22pt;
+    margin-left: 120px; 
+    padding-top: 0;
+    color: white;
+    position: absolute;
+    
+}
+#logoImg{
+    margin-left: 80px;
+    margin-bottom: 10px;
+   
+}
+
+#Contact{
+   margin-right: 50px;
+}
+
+#disabled{
+    color: #5D5D5D;
+}
+
+#mainUl{
+    margin-right: 80px;
+}
+
+.upperImageContainer{
+    width: 100%;
+
+    z-index: 9999;
+}
+#upperMainImg{
+    width: 90%;
+    float: right;
+
+    margin-top: 100px;
+    filter:sepia(1) hue-rotate(149deg);
+    opacity: 70%;  
+          
+}
+#blueLayer{
+    width: 90%;
+    float: right;
+    
+  
+    position: absolute;
+    top:-35%;
+    left:10%
+
+
+          
+}
+
+.mainUpperText{
+    float: left;
+    width: 35%;
+    position: absolute;
+    top:20vw;
+    left:18%;
+}
+#upperTitle{
+    z-index: 9999;
+    font-size: 3.2vw;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.mainUpperText p{
+    color:rgb(195, 195, 195);
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9vw;
+}
+.mainUpperText button{
+    padding: 0.7vw 2vw;
+    border-radius: 0;
+    font-size: 0.9vw;
+    background-color: #02BAFE;
+    border: none;
+}
+.mainUpperText button:hover{
+    background-color: #5D5D5D;
+}
+
+@media (min-width: 992px){
+
+    nav{
+        height:100px;
+    }
+}
+
+@media (max-width: 992px){
+    .mainUpperText{
+        float: left;
+        width: 40%;
+        position: absolute;
+        top:16vw;
+        left:15%;
+    }
+    #upperTitle{
+        z-index: 9999;
+        font-size: 4.3vw;
+        color:white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .mainUpperText p{
+        color:rgb(195, 195, 195);
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.1vw;
+    }
+    .mainUpperText button{
+        padding: 1vw 2.3vw;
+        border-radius: 0;
+        font-size: 0.9vw;
+        background-color: #02BAFE;
+        border: none;
+    }
+    #upperMainImg{
+        width: 90%;
+        float: right;
+    
+        margin-top: 45px;
+        filter:sepia(1) hue-rotate(149deg);
+        opacity: 70%;  
+              
+    }
+    .nav-item a{
+        font-family: 'Roboto', sans-serif;
+        font-weight:bolder;
+        color: white;
+        line-height: 40px;
+        font-size: 10.5pt;
+        padding: 0;
+        width: 100%;
+        
+    }
+    .nav-item{
+        margin: auto;
+    }
+
+    #logoTitle{
+        font-family: 'Roboto', sans-serif;
+        font-size: 22pt;
+        margin-left: 120px; 
+        position: absolute;
+        top:12px;
+        padding-top: 0;
+        color: white;
+        
+        
+    }
+    #logoImg{
+        margin-left: 80px;
+        margin-bottom: 10px;
+       
+    }
+    #mainUl{
+        margin-right: 0px;
+        margin-top: 15px;
+        
+        
+       
+    }
+    #Contact{
+        margin:auto;
+     }
+}
+
+@media (max-width: 1300px){
+    #mainUl{
+        margin-right: 20px;
+    }
+    .nav-link{
+        font-family: 'Roboto', sans-serif;
+        font-weight:500;
+        color: white;
+        font-size: 8pt;
+        height: 100%;
+        line-height: 100px;
+        padding: 0;
+    
+    }
+
+    #logoTitle{
+        font-family: 'Roboto', sans-serif;
+        font-size: 18pt;
+        margin-left: 60px; 
+        padding-top: 0;
+        color: white;
+        position: absolute;
+        
+    }
+    #logoImg{
+        margin-left: 25px;
+        margin-bottom: 10px;
+        width: 203px;
+       
+    }
+    
+}
