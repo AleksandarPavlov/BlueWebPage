@@ -1,3 +1,6 @@
+.wrapper{
+    height: 100%;
+}
 nav{
     border-bottom: 1px solid #5D5D5D;
     background-color: #252931;
@@ -107,6 +110,71 @@ nav{
     background-color: #5D5D5D;
 }
 
+.middleSection{
+    position: absolute;
+    top:51vw;
+    width: 100%;
+
+}
+.middleSection p{
+    color:rgb(195, 195, 195);
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9vw;
+    text-align: center;
+
+}
+#middleTitle{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.2vw;
+    text-align: center;
+}
+#col-icon{
+    color: white;
+    font-size: 2vw;
+}
+#col-icon:hover{
+    color: #2CC1DB;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+#icons-grid{
+    text-align: center;
+    width: 50%;
+    margin-top: 3vw;
+    
+}
+.col{
+    padding: 1vw 1vw;
+}
+.col p {
+    color: rgb(195, 195, 195);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    margin-top: 0.35vw;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+
+#upperCol{
+    border-bottom:0.25px solid #383A3D;
+    border-right:2px solid #383A3D ;
+}
+#lowerCol{
+    border-top:0.25px solid #383A3D;
+    border-right:2px solid #383A3D ;
+    
+}
+#upperColRight{
+    border-right:0px ;
+    border-bottom:0.25px solid #383A3D;
+}
+#lowerColRight{
+    border-right:0px ;
+    border-top:0.25px solid #383A3D;
+}
 @media (min-width: 992px){
 
     nav{
@@ -238,6 +306,7 @@ nav{
         font-size: 9.8vw;
         color:white;
         font-family: 'Roboto', sans-serif;
+  
     }
     .mainUpperText p{
         color:rgb(195, 195, 195);
@@ -252,19 +321,17 @@ nav{
         border: none;
     }
     #upperMainImg{
-        width: 170%;
+        width: 200%;
         float: right;
         
         margin-top: 60px;
         filter:sepia(1) hue-rotate(149deg);
-        opacity: 30%;  
+        opacity: 25%;  
               
     }
     #blueLayer{
         width: 40%;
         float: right;
-        
-      
         position: absolute;
         top:5%;
         left:60%
