@@ -159,17 +159,18 @@ nav{
 
 
 #upperCol{
-    border-bottom:0.25px solid #383A3D;
-    border-right:2px solid #383A3D ;
+    border-bottom:0;
+    border-right:0.5px solid #383A3D ;
+    
 }
 #lowerCol{
     border-top:0.25px solid #383A3D;
-    border-right:2px solid #383A3D ;
+    border-right:0.5px solid #383A3D ;
     
 }
 #upperColRight{
     border-right:0px ;
-    border-bottom:0.25px solid #383A3D;
+    border-bottom:0;
 }
 #lowerColRight{
     border-right:0px ;
@@ -293,6 +294,50 @@ nav{
 }
 
 @media (max-width: 620px){
+    #col-icon{
+        color: white;
+        font-size: 4vw;
+    }
+    #icons-grid{
+        text-align: center;
+        width: 85%;
+        margin-top: 5vw;
+        
+    }
+    .col{
+   
+       text-align: center;
+    }
+    .col p {
+        color: rgb(195, 195, 195);
+        font-family: 'Roboto', sans-serif;
+        font-size: 1vw;
+        margin-top: 0.35vw;
+        margin-bottom: 0;
+        cursor: pointer;
+    }
+    
+    .middleSection{
+        position: absolute;
+        top:107vw;
+        width: 100%;
+    
+    }
+    .middleSection p{
+        color:rgb(195, 195, 195);
+        font-family: 'Roboto', sans-serif;
+        font-size:2.8vw;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    
+    }
+    #middleTitle{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 10vw;
+        text-align: center;
+    }
     .mainUpperText{
         float: center;
         width: 85%;
