@@ -5,20 +5,23 @@ nav{
     border-bottom: 1px solid #5D5D5D;
     background-color: #252931;
     z-index: 9999;
+    
+
 }
 .nav-link{
     font-family: 'Roboto', sans-serif;
-    font-weight:500;
+    font-weight:lighter;
     color: white;
-    font-size: 10.5pt;
+    font-size: 0.9vw;
     height: 100%;
-    line-height: 100px;
-    
+    line-height: 5.9vw;
     padding: 0;
+    
 }
 .nav-item{
     
     border-bottom: 3px solid transparent;
+    
 }
 .nav-item:hover{
   cursor: pointer;
@@ -27,8 +30,12 @@ nav{
 
 }
 
+#nada{
+    font-weight: bold;
+}
 #logoTitle{
     font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
     font-size: 22pt;
     margin-left: 120px; 
     padding-top: 0;
@@ -93,10 +100,12 @@ nav{
     font-size: 3.2vw;
     color:white;
     font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
 }
 .mainUpperText p{
     color:rgb(195, 195, 195);
     font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
     font-size: 0.9vw;
 }
 .mainUpperText button{
@@ -112,20 +121,21 @@ nav{
 
 .middleSection{
     position: absolute;
-    top:51vw;
+    top:53vw;
     width: 100%;
-    height: 553vh;
-
+   
 }
 .middleSection p{
     color:rgb(195, 195, 195);
     font-family: 'Roboto', sans-serif;
-    font-size: 0.9vw;
+    font-weight: lighter;
+    font-size: 0.8vw;
     text-align: center;
 
 }
 #middleTitle{
     color: white;
+    font-weight: lighter;
     font-family: 'Roboto', sans-serif;
     font-size: 3.2vw;
     text-align: center;
@@ -142,8 +152,8 @@ nav{
 }
 #icons-grid{
     text-align: center;
-    width: 50%;
-    margin-top: 3vw;
+    width: 55%;
+    margin-top: 4.5vw;
     
 }
 .col{
@@ -177,10 +187,163 @@ nav{
     border-right:0px ;
     border-top:0.25px solid #383A3D;
 }
+.cardsGridSection{
+    width: 100%;
+    position: absolute;
+    top:94vw;
+    text-align: center;
+    
+
+
+}
+.cardsGridSection h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 2.1vw;
+    width: 36%;
+    text-align: left;
+    margin-left: 13.5vw;
+}
+#cardsGridContainer{
+    width: 75%;
+    text-align: center;
+    margin-top: 2vw;
+
+}
+.cardsGridSection .p-3{
+    background-color: #232529;
+    text-align: left;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: medium;
+    line-height: 1.4vw;
+    height:13vw;
+    width: 16.5vw;
+    display: table-cell;
+    vertical-align: middle;
+  
+  
+}
+.cardsGridSection .col{
+    margin-top: 0;
+    
+}
+.p-3 p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 0.8vw;
+   
+}
+.cardsGridSection button{
+    border-radius: 0;
+    margin-top: 1vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 0.9vw;
+    padding: 0.7vw 3.1vw;
+}
+.cardsGridSection button:hover{
+    color: rgb(86, 86, 86);
+}
+.blueBoxQuote{
+    width: 52%;
+    color: white;
+    position: absolute;
+    left:25vw;
+    height: 9vw;
+    top:146vw;
+    text-align: center;
+    display: table;
+ 
+  
+
+}
+.blueBoxQuote h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight:normal;
+    font-style: italic;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    margin: auto;
+    display: table-cell;
+    vertical-align: middle;
+   
+}
+.referencesSection{
+    width: 100%;
+    height:28vw;
+    position: absolute;
+    top:169vw;
+
+}
+.referencesSection h4{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 2.1vw;
+    margin-left: 22vw;
+}
+#reference{
+    color:rgb(176, 176, 176);
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 0.8vw;
+    width: 30%;
+    margin-left: 22vw;
+    margin-top: 1.5vw;
+    line-height: 1.3vw;
+    
+}
+#referencePerson{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 1vw;
+    margin-left: 22.5vw;
+    margin-bottom: 0;
+}
+#referencePersonStatus{
+    color: rgb(195, 195, 195);
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 0.9vw;
+    margin-left: 23vw;
+}
+.referencesSection button{
+    border-radius: 0;
+    margin-top: 1vw;
+    margin-left: 22vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 0.9vw;
+    padding: 0.7vw 3vw;
+}
+.referencesSection button:hover{
+    color: rgb(86, 86, 86);
+}
+#referenceSelectors{
+ position: absolute; 
+ left: 13vw;
+ bottom: 12.3vw;  
+}
+#selectorSquare{
+    border-radius: 0;
+    border: 1px solid white;
+    transform: rotate(45deg);
+    margin-bottom: 0.55vw;
+    padding: 0.2vw 0.2vw;
+}
+.bottomMargin{
+    width: 100%;
+    position: absolute;
+    top: 200vw;
+    height: 30vw;
+}
 @media (min-width: 992px){
 
     nav{
-        height:100px;
+        height:6vw;
     }
 }
 

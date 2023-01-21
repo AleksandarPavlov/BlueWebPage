@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
     <div class="container-fluid">
       <img src = "assets/images/logo.png" id="logoImg">
-      <a class="navbar-brand" id = "logoTitle"><strong>NADA</strong>MACURA</a>
+      <a class="navbar-brand" id = "logoTitle"><strong id ="nada">NADA</strong>MACURA</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -38,8 +38,7 @@
     </div>
     </nav>
 
-    <div class="upperImageContainer">
-      
+    <div class="upperImageContainer">    
         <div class = "mainUpperText">
           <h1 id="upperTitle">Lorem Ipsum has<br> been the industry's.</h1>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
@@ -47,9 +46,9 @@
         </div>
     </div>
 
-    <div class = "middleSection">
+    <div class = "middleSection"  >
       <h1 id="middleTitle">Train your train<span style="color:#2CC1DB">.</span></h1>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<br>Lorem Ipsum is simply dummy text.</p>   
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has<br> been the industry's standard  of the printing and typesetting industry text ever since the 1500s.<br>Lorem Ipsum is simply dummy text.</p>   
         <div class="container text-center" id="icons-grid">
           <div class="row row-cols-5">
             <div class="col" id="upperCol"><i class="fa-solid fa-person-walking" id="col-icon"></i><br><p>handball</p></div>
@@ -63,9 +62,88 @@
             <div class="col" id="lowerCol"><i class="fa-solid fa-person-walking" id="col-icon"></i><br><p>athletics</p></div>
             <div class="col" id="lowerColRight"><i class="fa-solid fa-person-walking" id="col-icon"></i><br><p>biathlon</p></div>
           </div>
-        </div>
-      
+        </div>     
     </div>
-   
+
+    <div class = "cardsGridSection">
+      <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+      <div class="container text-center" id ="cardsGridContainer">
+        <div class="row row-cols-2 row-cols-lg-4">
+          <div class="col">
+            <div class="p-3">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour even slightly believable.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3" >ipsum lorem ipsum
+              <p>There are many variations of passages of Lorem Ipsum available</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem</div>
+          </div>
+          <div class="col">
+            <div class="p-3">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem</div>
+          </div>
+          <div class="col">
+            <div class="p-3">ipsum lorem ipsum
+              <p>There are many variations of passagese</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem</div>
+          </div>
+          <div class="col">
+            <div class="p-3">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem</div>
+          </div>
+          <div class="col">
+            <div class="p-3">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+              <p>There are many variations of passages of Lorem Ipsum available</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-outline-light">All services</button>
+    </div>
+    
+    <div class="blueBoxQuote">
+      <h4>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" - Jack Welch</h4>
+    </div>
+
+    <div class="referencesSection">
+      <h4>References.</h4>
+      <p id = "reference">{{currentReference.text}}</p>
+      <p id ="referencePerson">- {{currentReference.person}}</p>
+      <p id ="referencePersonStatus">{{currentReference.title}}</p>
+      <button type="button" class="btn btn-outline-light">All references</button>
+      <div class="btn-group-vertical" id="referenceSelectors" role="group" aria-label="Vertical radio toggle button group">
+        <input type="radio" class="btn-check" (click) = "changeReference(0)" name="vbtn-radio" id="vbtn-radio1" autocomplete="off" checked>
+        <label class="btn btn-outline-info" for="vbtn-radio1" id="selectorSquare"></label>
+        <input type="radio" (click) = "changeReference(1)"class="btn-check" name="vbtn-radio" id="vbtn-radio2" autocomplete="off">
+        <label class="btn btn-outline-info" for="vbtn-radio2" id="selectorSquare"></label>
+        <input type="radio" class="btn-check"(click) = "changeReference(2)"name="vbtn-radio" id="vbtn-radio3" autocomplete="off">
+        <label class="btn btn-outline-info" for="vbtn-radio3" id="selectorSquare"></label>
+        <input type="radio" class="btn-check" (click) = "changeReference(3)" name="vbtn-radio" id="vbtn-radio4" autocomplete="off">
+        <label class="btn btn-outline-info" for="vbtn-radio4" id="selectorSquare"></label>
+        <input type="radio" class="btn-check" (click) = "changeReference(4)" name="vbtn-radio" id="vbtn-radio5" autocomplete="off">
+        <label class="btn btn-outline-info" for="vbtn-radio5" id="selectorSquare"></label>
+        <input type="radio" class="btn-check" (click) = "changeReference(5)" name="vbtn-radio" id="vbtn-radio6" autocomplete="off">
+        <label class="btn btn-outline-info" for="vbtn-radio6" id="selectorSquare"></label>
+        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio7" autocomplete="off">
+        <label class="btn btn-outline-info" for="vbtn-radio7" id="selectorSquare"></label>
+        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio8" autocomplete="off">
+        <label class="btn btn-outline-info" for="vbtn-radio8" id="selectorSquare"></label>
+        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio9" autocomplete="off">
+        <label class="btn btn-outline-info" for="vbtn-radio9" id="selectorSquare"></label>
+        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio10" autocomplete="off">
+        <label class="btn btn-outline-info" for="vbtn-radio10" id="selectorSquare"></label>
+        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio11" autocomplete="off">
+        <label class="btn btn-outline-info" for="vbtn-radio11" id="selectorSquare"></label>
+      </div>
+    </div>
+    
+    <div class = "bottomMargin">
+
+    </div>
 </div>
 
