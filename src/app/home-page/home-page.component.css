@@ -334,6 +334,27 @@ nav{
     margin-bottom: 0.55vw;
     padding: 0.2vw 0.2vw;
 }
+.referenceImage{
+    width: 17.7vw;
+    height: 17.7vw;
+    float: right;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 19.3vw;
+    top:1.7vw;
+    display: flex;
+    justify-content:center;
+
+    overflow: hidden
+    
+}
+.referenceImage img{
+    object-fit: cover;
+    max-width: 100%;
+    transform: rotate(-45deg) scale(1.42);
+
+}
+
 .bottomMargin{
     width: 100%;
     position: absolute;

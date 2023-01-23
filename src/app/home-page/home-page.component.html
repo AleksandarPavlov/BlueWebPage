@@ -46,7 +46,7 @@
         </div>
     </div>
 
-    <div class = "middleSection"  >
+    <div class = "middleSection">
       <h1 id="middleTitle">Train your train<span style="color:#2CC1DB">.</span></h1>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has<br> been the industry's standard  of the printing and typesetting industry text ever since the 1500s.<br>Lorem Ipsum is simply dummy text.</p>   
         <div class="container text-center" id="icons-grid">
@@ -129,16 +129,19 @@
         <label class="btn btn-outline-info" for="vbtn-radio5" id="selectorSquare"></label>
         <input type="radio" class="btn-check" (click) = "changeReference(5)" name="vbtn-radio" id="vbtn-radio6" autocomplete="off">
         <label class="btn btn-outline-info" for="vbtn-radio6" id="selectorSquare"></label>
-        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio7" autocomplete="off">
+        <input type="radio" class="btn-check" (click) = "changeReference(6)" name="vbtn-radio" id="vbtn-radio7" autocomplete="off">
         <label class="btn btn-outline-info" for="vbtn-radio7" id="selectorSquare"></label>
-        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio8" autocomplete="off">
+        <input type="radio" class="btn-check" (click) = "changeReference(7)" name="vbtn-radio" id="vbtn-radio8" autocomplete="off">
         <label class="btn btn-outline-info" for="vbtn-radio8" id="selectorSquare"></label>
-        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio9" autocomplete="off">
-        <label class="btn btn-outline-info" for="vbtn-radio9" id="selectorSquare"></label>
-        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio10" autocomplete="off">
-        <label class="btn btn-outline-info" for="vbtn-radio10" id="selectorSquare"></label>
-        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio11" autocomplete="off">
+        <input type="radio" class="btn-check"  (click) = "changeReference(8)"name="vbtn-radio" id="vbtn-radio9" autocomplete="off">
+        <label class="btn btn-outline-info"  for="vbtn-radio9" id="selectorSquare"></label>
+        <input type="radio" class="btn-check" (click) = "changeReference(9)" name="vbtn-radio" id="vbtn-radio10" autocomplete="off">
+        <label class="btn btn-outline-info"  for="vbtn-radio10" id="selectorSquare"></label>
+        <input type="radio" class="btn-check" (click) = "changeReference(10)" name="vbtn-radio" id="vbtn-radio11" autocomplete="off">
         <label class="btn btn-outline-info" for="vbtn-radio11" id="selectorSquare"></label>
+      </div>
+      <div class = "referenceImage" id="refImage">
+        <img src ="{{currentReference.image}}">
       </div>
     </div>
     
