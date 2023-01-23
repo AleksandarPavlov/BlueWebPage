@@ -1,574 +1,606 @@
-.wrapper{
+.wrapper {
     height: 100%;
-}
-nav{
-    border-bottom: 1px solid #5D5D5D;
+  }
+  nav {
+    border-bottom: 1px solid #5d5d5d;
     background-color: #252931;
     z-index: 9999;
-    
-
-}
-.nav-link{
-    font-family: 'Roboto', sans-serif;
-    font-weight:lighter;
+  }
+  .nav-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
     color: white;
     font-size: 0.9vw;
     height: 100%;
     line-height: 5.9vw;
     padding: 0;
-    
-}
-.nav-item{
-    
+  }
+  .nav-item {
     border-bottom: 3px solid transparent;
-    
-}
-.nav-item:hover{
-  cursor: pointer;
-  transition: 0.5s;
-  border-bottom: 3px solid #2CC1DB;
-
-}
-
-#nada{
+  }
+  .nav-item:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    border-bottom: 3px solid #2cc1db;
+  }
+  
+  #nada {
     font-weight: bold;
-}
-#logoTitle{
-    font-family: 'Roboto', sans-serif;
+  }
+  #logoTitle {
+    font-family: "Roboto", sans-serif;
     font-weight: lighter;
     font-size: 22pt;
-    margin-left: 120px; 
+    margin-left: 120px;
     padding-top: 0;
     color: white;
     position: absolute;
-    
-}
-#logoImg{
+  }
+  #logoImg {
     margin-left: 80px;
     margin-bottom: 10px;
-   
-}
-
-#Contact{
-   margin-right: 50px;
-}
-
-#disabled{
-    color: #5D5D5D;
-}
-
-#mainUl{
+  }
+  
+  #Contact {
+    margin-right: 50px;
+  }
+  
+  #disabled {
+    color: #5d5d5d;
+  }
+  
+  #mainUl {
     margin-right: 80px;
-}
-
-.upperImageContainer{
+  }
+  
+  .upperImageContainer {
     width: 100%;
-
+  
     z-index: 9999;
-}
-#upperMainImg{
+  }
+  #upperMainImg {
     width: 90%;
     float: right;
-
+  
     margin-top: 100px;
-    filter:sepia(1) hue-rotate(149deg);
-    opacity: 70%;  
-          
-}
-#blueLayer{
+    filter: sepia(1) hue-rotate(149deg);
+    opacity: 70%;
+  }
+  #blueLayer {
     width: 90%;
     float: right;
-    
   
     position: absolute;
-    top:-35%;
-    left:10%
-
-
-          
-}
-
-.mainUpperText{
+    top: -35%;
+    left: 10%;
+  }
+  
+  .mainUpperText {
     float: left;
     width: 35%;
     position: absolute;
-    top:20vw;
-    left:18%;
-}
-#upperTitle{
+    top: 20vw;
+    left: 18%;
+  }
+  #upperTitle {
     z-index: 9999;
     font-size: 3.2vw;
-    color:white;
-    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-family: "Roboto", sans-serif;
     font-weight: lighter;
-}
-.mainUpperText p{
-    color:rgb(195, 195, 195);
-    font-family: 'Roboto', sans-serif;
+  }
+  .mainUpperText p {
+    color: rgb(195, 195, 195);
+    font-family: "Roboto", sans-serif;
     font-weight: lighter;
     font-size: 0.9vw;
-}
-.mainUpperText button{
+  }
+  .mainUpperText button {
     padding: 0.7vw 2vw;
     border-radius: 0;
     font-size: 0.9vw;
-    background-color: #02BAFE;
+    background-color: #02bafe;
     border: none;
-}
-.mainUpperText button:hover{
-    background-color: #5D5D5D;
-}
-
-.middleSection{
+  }
+  .mainUpperText button:hover {
+    background-color: #5d5d5d;
+  }
+  
+  .middleSection {
     position: absolute;
-    top:53vw;
+    top: 53vw;
     width: 100%;
-   
-}
-.middleSection p{
-    color:rgb(195, 195, 195);
-    font-family: 'Roboto', sans-serif;
+  }
+  .middleSection p {
+    color: rgb(195, 195, 195);
+    font-family: "Roboto", sans-serif;
     font-weight: lighter;
     font-size: 0.8vw;
     text-align: center;
-
-}
-#middleTitle{
+  }
+  #middleTitle {
     color: white;
     font-weight: lighter;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 3.2vw;
     text-align: center;
-}
-#col-icon{
+  }
+  #col-icon {
     color: white;
     font-size: 2vw;
-}
-#col-icon:hover{
-    color: #2CC1DB;
+  }
+  #col-icon:hover {
+    color: #2cc1db;
     cursor: pointer;
     transition: 0.2s;
-
-}
-#icons-grid{
+  }
+  #icons-grid {
     text-align: center;
     width: 55%;
     margin-top: 4.5vw;
-    
-}
-.col{
+  }
+  .col {
     padding: 1vw 1vw;
-}
-.col p {
+  }
+  .col p {
     color: rgb(195, 195, 195);
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1vw;
     margin-top: 0.35vw;
     margin-bottom: 0;
     cursor: pointer;
-}
-
-
-#upperCol{
-    border-bottom:0;
-    border-right:0.5px solid #383A3D ;
-    
-}
-#lowerCol{
-    border-top:0.25px solid #383A3D;
-    border-right:0.5px solid #383A3D ;
-    
-}
-#upperColRight{
-    border-right:0px ;
-    border-bottom:0;
-}
-#lowerColRight{
-    border-right:0px ;
-    border-top:0.25px solid #383A3D;
-}
-.cardsGridSection{
+  }
+  
+  #upperCol {
+    border-bottom: 0;
+    border-right: 0.5px solid #383a3d;
+  }
+  #lowerCol {
+    border-top: 0.25px solid #383a3d;
+    border-right: 0.5px solid #383a3d;
+  }
+  #upperColRight {
+    border-right: 0px;
+    border-bottom: 0;
+  }
+  #lowerColRight {
+    border-right: 0px;
+    border-top: 0.25px solid #383a3d;
+  }
+  .cardsGridSection {
     width: 100%;
     position: absolute;
-    top:94vw;
+    top: 94vw;
     text-align: center;
-    
-
-
-}
-.cardsGridSection h1{
+  }
+  .cardsGridSection h1 {
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: lighter;
     font-size: 2.1vw;
     width: 36%;
     text-align: left;
     margin-left: 13.5vw;
-}
-#cardsGridContainer{
+  }
+  #cardsGridContainer {
     width: 75%;
     text-align: center;
     margin-top: 2vw;
-
-}
-.cardsGridSection .p-3{
+  }
+  .cardsGridSection .p-3 {
     background-color: #232529;
     text-align: left;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: medium;
     line-height: 1.4vw;
-    height:13vw;
+    height: 13vw;
     width: 16.5vw;
     display: table-cell;
     vertical-align: middle;
-  
-  
-}
-.cardsGridSection .col{
+  }
+  .cardsGridSection .col {
     margin-top: 0;
-    
-}
-.p-3 p{
-    font-family: 'Roboto', sans-serif;
+  }
+  .p-3 p {
+    font-family: "Roboto", sans-serif;
     font-weight: lighter;
     font-size: 0.8vw;
-   
-}
-.cardsGridSection button{
+  }
+  .cardsGridSection button {
     border-radius: 0;
     margin-top: 1vw;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-size: 0.9vw;
     padding: 0.7vw 3.1vw;
-}
-.cardsGridSection button:hover{
+  }
+  .cardsGridSection button:hover {
     color: rgb(86, 86, 86);
-}
-.blueBoxQuote{
+  }
+  .blueBoxQuote {
     width: 52%;
     color: white;
     position: absolute;
-    left:25vw;
+    left: 25vw;
     height: 9vw;
-    top:146vw;
+    top: 146vw;
     text-align: center;
     display: table;
- 
-  
-
-}
-.blueBoxQuote h4{
-    font-family: 'Roboto', sans-serif;
-    font-weight:normal;
+  }
+  .blueBoxQuote h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
     font-style: italic;
     font-size: 1.5vw;
     line-height: 2vw;
     margin: auto;
     display: table-cell;
     vertical-align: middle;
-   
-}
-.referencesSection{
+  }
+  .referencesSection {
     width: 100%;
-    height:28vw;
+    height: 28vw;
     position: absolute;
-    top:169vw;
-
-}
-.referencesSection h4{
+    top: 169vw;
+  }
+  .referencesSection h4 {
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: lighter;
     font-size: 2.1vw;
     margin-left: 22vw;
-}
-#reference{
-    color:rgb(176, 176, 176);
-    font-family: 'Roboto', sans-serif;
+  }
+  #reference {
+    color: rgb(176, 176, 176);
+    font-family: "Roboto", sans-serif;
     font-weight: lighter;
     font-size: 0.8vw;
     width: 30%;
     margin-left: 22vw;
     margin-top: 1.5vw;
     line-height: 1.3vw;
-    
-}
-#referencePerson{
+  }
+  #referencePerson {
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-size: 1vw;
     margin-left: 22.5vw;
     margin-bottom: 0;
-}
-#referencePersonStatus{
+  }
+  #referencePersonStatus {
     color: rgb(195, 195, 195);
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: lighter;
     font-size: 0.9vw;
     margin-left: 23vw;
-}
-.referencesSection button{
+  }
+  .referencesSection button {
     border-radius: 0;
     margin-top: 1vw;
     margin-left: 22vw;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-size: 0.9vw;
     padding: 0.7vw 3vw;
-}
-.referencesSection button:hover{
+  }
+  .referencesSection button:hover {
     color: rgb(86, 86, 86);
-}
-#referenceSelectors{
- position: absolute; 
- left: 13vw;
- bottom: 12.3vw;  
-}
-#selectorSquare{
+  }
+  #referenceSelectors {
+    position: absolute;
+    left: 13vw;
+    bottom: 12.3vw;
+  }
+  #selectorSquare {
     border-radius: 0;
     border: 1px solid white;
     transform: rotate(45deg);
     margin-bottom: 0.55vw;
     padding: 0.2vw 0.2vw;
-}
-.referenceImage{
+  }
+  .referenceImage {
     width: 17.7vw;
     height: 17.7vw;
     float: right;
     transform: rotate(45deg);
     position: absolute;
     right: 19.3vw;
-    top:1.7vw;
+    top: 1.7vw;
     display: flex;
-    justify-content:center;
-
-    overflow: hidden
-    
-}
-.referenceImage img{
+    justify-content: center;
+  
+    overflow: hidden;
+  }
+  .referenceImage img {
     object-fit: cover;
     max-width: 100%;
     transform: rotate(-45deg) scale(1.42);
+  }
+  .aboutMeSection {
+    width: 100%;
+    height: 28vw;
+    position: absolute;
+    top: 203vw;
+  }
+  .aboutMeSection h4 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    font-size: 2.1vw;
+    margin-left: 42vw;
+    margin-top: 3vw;
+  }
+  .aboutMeSection p {
+    color: rgb(176, 176, 176);
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    font-size: 0.8vw;
+    width: 30%;
+    margin-left: 42vw;
+    margin-top: 1.5vw;
+    line-height: 1.3vw;
+  }
+  .meImage {
+    width: 16.7vw;
+    height: 17.3vw;
+    left: 16.4vw;
+    top: 3.1vw;
+    float: left;
+    transform: rotate(45deg);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    overflow: hidden;
+  }
+  .meImage img {
+    object-fit: cover;
+    max-width: 102%;
+    transform: rotate(-45deg) scale(1.42);
+  }
+  .aboutMeSection button {
+    border-radius: 0;
+    margin-top: 1.5vw;
+    margin-left: 42vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 0.9vw;
+    padding: 0.7vw 2.2vw;
+  }
+  .aboutMeSection button:hover {
+    color: rgb(86, 86, 86);
+  }
+  .latestBlogSection{
+    width: 100%;
+    height: 40vw;
+    position: absolute;
+    top: 240vw;
+  }
+  .latestBlogSection h4{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    font-size: 2.1vw;
+    text-align: center;
+  }
+  #blogContainer{
+    width: 60%;
+    text-align: center;
+    height: 28.5vw;
+    margin-top: 5vw;
 
-}
+  }
 
-.bottomMargin{
+  #blogContainer .row{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+  }
+  #blogContainer img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 0.25vw 0.75vw;
+
+  }
+  #blogCol{
+    max-height: 100%;
+
+  }
+ 
+  .bottomMargin {
     width: 100%;
     position: absolute;
-    top: 200vw;
+    top: 300vw;
     height: 30vw;
-}
-@media (min-width: 992px){
-
-    nav{
-        height:6vw;
+  }
+  @media (min-width: 992px) {
+    nav {
+      height: 6vw;
     }
-}
-
-@media (max-width: 992px){
-    .mainUpperText{
-        float: left;
-        width: 40%;
-        position: absolute;
-        top:16vw;
-        left:15%;
+  }
+  
+  @media (max-width: 992px) {
+    .mainUpperText {
+      float: left;
+      width: 40%;
+      position: absolute;
+      top: 16vw;
+      left: 15%;
     }
-    #upperTitle{
-        z-index: 9999;
-        font-size: 4.3vw;
-        color:white;
-        font-family: 'Roboto', sans-serif;
+    #upperTitle {
+      z-index: 9999;
+      font-size: 4.3vw;
+      color: white;
+      font-family: "Roboto", sans-serif;
     }
-    .mainUpperText p{
-        color:rgb(195, 195, 195);
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.1vw;
+    .mainUpperText p {
+      color: rgb(195, 195, 195);
+      font-family: "Roboto", sans-serif;
+      font-size: 1.1vw;
     }
-    .mainUpperText button{
-        padding: 1vw 2.3vw;
-        border-radius: 0;
-        font-size: 0.9vw;
-        background-color: #02BAFE;
-        border: none;
+    .mainUpperText button {
+      padding: 1vw 2.3vw;
+      border-radius: 0;
+      font-size: 0.9vw;
+      background-color: #02bafe;
+      border: none;
     }
-    #upperMainImg{
-        width: 90%;
-        float: right;
-    
-        margin-top: 45px;
-        filter:sepia(1) hue-rotate(149deg);
-        opacity: 70%;  
-              
+    #upperMainImg {
+      width: 90%;
+      float: right;
+  
+      margin-top: 45px;
+      filter: sepia(1) hue-rotate(149deg);
+      opacity: 70%;
     }
-    .nav-item a{
-        font-family: 'Roboto', sans-serif;
-        font-weight:bolder;
-        color: white;
-        line-height: 40px;
-        font-size: 10.5pt;
-        padding: 0;
-        width: 100%;
-        
+    .nav-item a {
+      font-family: "Roboto", sans-serif;
+      font-weight: bolder;
+      color: white;
+      line-height: 40px;
+      font-size: 10.5pt;
+      padding: 0;
+      width: 100%;
     }
-    .nav-item{
-        margin: auto;
+    .nav-item {
+      margin: auto;
     }
-
-    #logoTitle{
-        font-family: 'Roboto', sans-serif;
-        font-size: 22pt;
-        margin-left: 120px; 
-        position: absolute;
-        top:12px;
-        padding-top: 0;
-        color: white;
-        
-        
+  
+    #logoTitle {
+      font-family: "Roboto", sans-serif;
+      font-size: 22pt;
+      margin-left: 120px;
+      position: absolute;
+      top: 12px;
+      padding-top: 0;
+      color: white;
     }
-    #logoImg{
-        margin-left: 80px;
-        margin-bottom: 10px;
-       
+    #logoImg {
+      margin-left: 80px;
+      margin-bottom: 10px;
     }
-    #mainUl{
-        margin-right: 0px;
-        margin-top: 15px;
-        
-        
-       
+    #mainUl {
+      margin-right: 0px;
+      margin-top: 15px;
     }
-    #Contact{
-        margin:auto;
-     }
-}
-
-@media (max-width: 1300px){
-    #mainUl{
-        margin-right: 20px;
+    #Contact {
+      margin: auto;
     }
-    .nav-link{
-        font-family: 'Roboto', sans-serif;
-        font-weight:500;
-        color: white;
-        font-size: 8pt;
-        height: 100%;
-        line-height: 100px;
-        padding: 0;
-    
+  }
+  
+  @media (max-width: 1300px) {
+    #mainUl {
+      margin-right: 20px;
     }
-
-    #logoTitle{
-        font-family: 'Roboto', sans-serif;
-        font-size: 18pt;
-        margin-left: 60px; 
-        padding-top: 0;
-        color: white;
-        position: absolute;
-        
+    .nav-link {
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      color: white;
+      font-size: 8pt;
+      height: 100%;
+      line-height: 100px;
+      padding: 0;
     }
-    #logoImg{
-        margin-left: 25px;
-        margin-bottom: 10px;
-        width: 203px;
-       
+  
+    #logoTitle {
+      font-family: "Roboto", sans-serif;
+      font-size: 18pt;
+      margin-left: 60px;
+      padding-top: 0;
+      color: white;
+      position: absolute;
     }
-    
-}
-
-@media (max-width: 620px){
-    #col-icon{
-        color: white;
-        font-size: 4vw;
+    #logoImg {
+      margin-left: 25px;
+      margin-bottom: 10px;
+      width: 203px;
     }
-    #icons-grid{
-        text-align: center;
-        width: 85%;
-        margin-top: 5vw;
-        
+  }
+  
+  @media (max-width: 620px) {
+    #col-icon {
+      color: white;
+      font-size: 4vw;
     }
-    .col{
-   
-       text-align: center;
+    #icons-grid {
+      text-align: center;
+      width: 85%;
+      margin-top: 5vw;
+    }
+    .col {
+      text-align: center;
     }
     .col p {
-        color: rgb(195, 195, 195);
-        font-family: 'Roboto', sans-serif;
-        font-size: 1vw;
-        margin-top: 0.35vw;
-        margin-bottom: 0;
-        cursor: pointer;
+      color: rgb(195, 195, 195);
+      font-family: "Roboto", sans-serif;
+      font-size: 1vw;
+      margin-top: 0.35vw;
+      margin-bottom: 0;
+      cursor: pointer;
     }
-    
-    .middleSection{
-        position: absolute;
-        top:107vw;
-        width: 100%;
-    
-    }
-    .middleSection p{
-        color:rgb(195, 195, 195);
-        font-family: 'Roboto', sans-serif;
-        font-size:2.8vw;
-        text-align: center;
-        width: 80%;
-        margin: auto;
-    
-    }
-    #middleTitle{
-        color: white;
-        font-family: 'Roboto', sans-serif;
-        font-size: 10vw;
-        text-align: center;
-    }
-    .mainUpperText{
-        float: center;
-        width: 85%;
-        position: absolute;
-        top:25vw;
-        left: 11vw;
-        
-    }
-    #upperTitle{
-        z-index: 9999;
-        font-size: 9.8vw;
-        color:white;
-        font-family: 'Roboto', sans-serif;
   
+    .middleSection {
+      position: absolute;
+      top: 107vw;
+      width: 100%;
     }
-    .mainUpperText p{
-        color:rgb(195, 195, 195);
-        font-family: 'Roboto', sans-serif;
-        font-size: 3vw;
+    .middleSection p {
+      color: rgb(195, 195, 195);
+      font-family: "Roboto", sans-serif;
+      font-size: 2.8vw;
+      text-align: center;
+      width: 80%;
+      margin: auto;
     }
-    .mainUpperText button{
-        padding: 2.6vw 5.3vw;
-        border-radius: 0;
-        font-size: 3vw;
-        background-color: #02BAFE;
-        border: none;
+    #middleTitle {
+      color: white;
+      font-family: "Roboto", sans-serif;
+      font-size: 10vw;
+      text-align: center;
     }
-    #upperMainImg{
-        width: 200%;
-        float: right;
-        
-        margin-top: 60px;
-        filter:sepia(1) hue-rotate(149deg);
-        opacity: 25%;  
-              
+    .mainUpperText {
+      float: center;
+      width: 85%;
+      position: absolute;
+      top: 25vw;
+      left: 11vw;
     }
-    #blueLayer{
-        width: 40%;
-        float: right;
-        position: absolute;
-        top:5%;
-        left:60%
-    
-    
-              
+    #upperTitle {
+      z-index: 9999;
+      font-size: 9.8vw;
+      color: white;
+      font-family: "Roboto", sans-serif;
     }
-    
+    .mainUpperText p {
+      color: rgb(195, 195, 195);
+      font-family: "Roboto", sans-serif;
+      font-size: 3vw;
+    }
+    .mainUpperText button {
+      padding: 2.6vw 5.3vw;
+      border-radius: 0;
+      font-size: 3vw;
+      background-color: #02bafe;
+      border: none;
+    }
+    #upperMainImg {
+      width: 200%;
+      float: right;
   
-}
+      margin-top: 60px;
+      filter: sepia(1) hue-rotate(149deg);
+      opacity: 25%;
+    }
+    #blueLayer {
+      width: 40%;
+      float: right;
+      position: absolute;
+      top: 5%;
+      left: 60%;
+    }
+  }
+  
