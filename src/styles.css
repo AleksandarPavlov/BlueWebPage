@@ -11,5 +11,13 @@ html,body{
 }
 
 @media (max-width: 620px){
- 
+    html,body{
+      
+        background-image: url('assets/images/bgimgphone.png');
+   
+        background-size:cover;
+        background-size: 100%;
+    
+    }
+   
 }
