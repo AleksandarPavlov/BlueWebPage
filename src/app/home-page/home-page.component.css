@@ -632,33 +632,33 @@
       width: 100%;
     }
     .leftSideFooter{
-      width: 37%;
+      width: 45%;
       height: 10vw;
       position: absolute;
       bottom: 0;
-      left: 4%;
+      left: 3%;
     }
     .rightSideFooter{
-      width: 37%;
+      width: 45%;
       height: 10vw;
       position: absolute;
       bottom: 0;
-      right:4%;
+      right:3%;
     }
     #footerLogoTitle {
       font-family: "Roboto", sans-serif;
       font-weight: lighter;
-      font-size: 3vw;
-      left: 4vw;
-      top:-0.6vw;
+      font-size: 3.37vw;
+      left: 4.3vw;
+      top:-1.1vw;
       color: white;
       position: absolute;
     }
     #footerLogo{
       left: 0;
-      top:-1vw;
+      top:-1.5vw;
       position: absolute;
-      width: 67%;
+      width: 62%;
     }
     #footerHr{
       display: none;
@@ -667,7 +667,7 @@
       color: rgb(209, 209, 209);
       font-family: "Roboto", sans-serif;
       font-weight: lighter;
-      font-size: 1.72vw;
+      font-size: 1.95vw;
       position: absolute;
       top:5.5vw;
     }
@@ -676,7 +676,7 @@
       color: rgb(209, 209, 209);
       font-family: "Roboto", sans-serif;
       font-weight: lighter;
-      font-size: 1.72vw;
+      font-size: 1.95vw;
       position: absolute;
       top:5.5vw;
       right:0;
@@ -689,29 +689,29 @@
     #linkedin{
       color: white;
       position: absolute;
-      top: -2vw;
-      padding: 1.5vw 1.6vw;
+      top: -2.5vw;
+      padding: 1.7vw 1.8vw;
       border: 0.1vw solid white;
-      right:14.8vw;
-      font-size: 2.5vw;
+      right:17vw;
+      font-size: 2.8vw;
     }
     #facebook{
       color: white;
       position: absolute;
-      top: -2vw;
-      padding: 1.5vw 2vw;
+      top: -2.5vw;
+      padding: 1.7vw 2.2vw;
       border: 0.1vw solid white;
-      right:7.35vw;
-      font-size: 2.5vw;
+      right:8.35vw;
+      font-size: 2.8vw;
     }
     #instagram{
       color: white;
       position: absolute;
-      top: -2vw;
-      padding: 1.5vw 1.6vw;
+      top: -2.5vw;
+      padding: 1.7vw 1.8vw;
       border: 0.1vw solid white;
       right:0;
-      font-size: 2.5vw;
+      font-size: 2.8vw;
     }
     
    
@@ -720,7 +720,7 @@
     .contactMeSection{
       width: 100%;
       position: absolute;
-      top:667vw;
+      top:665vw;
       text-align: center;
     }
     .contactMeSection h4{
@@ -762,7 +762,6 @@
       text-align: center;
       height: 45vw;
       margin-top: 4.5vw;
-      margin-right: 3.5vw;
   
     }
   
