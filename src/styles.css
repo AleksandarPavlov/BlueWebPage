@@ -1,23 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 html,body{
-  
-
     background-size: cover;
     background-size: 100%;
     background-repeat: no-repeat;
-   background-image: url('assets/images/bgimg.png');
-   
-  
+    background-image: url('assets/images/bgimg.png');
 }
 
 @media (max-width: 620px){
+    
     html,body{
-      
         background-image: url('assets/images/bgimgphone.png');
-   
         background-size:cover;
         background-size: 100%;
-    
     }
    
 }

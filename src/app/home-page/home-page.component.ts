@@ -8,11 +8,13 @@ export class Reference{
     public image: String
   ){}
 }
+
 @Component({
   selector: 'app-home-page',
   templateUrl: './home-page.component.html',
   styleUrls: ['./home-page.component.css']
 })
+
 export class HomePageComponent {
 
   references: Reference[] = [new Reference("Reference 11 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.", "Tim Berners-Lee", "HTTP(Hypertext transfer protocol).", "assets/images/tim.jpg"),
@@ -27,7 +29,9 @@ export class HomePageComponent {
                             new Reference("Reference 9 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the", "Mark Zuckerberg", "Co-founder of Meta(Facebook).", "assets/images/mark.jpeg"),
                             new Reference("Referenece 10 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem", "Dennis Ritchie", "Creator of 'C' programming language.", "assets/images/dennis.jpg"),
                           ]
-  i = 0
+
+ /*referencesCounter*/ i = 0
+
   currentReference: Reference = this.references[this.i];
   
   changeReference(id:number){

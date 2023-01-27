@@ -23,7 +23,6 @@
     transition: 0.5s;
     border-bottom: 3px solid #2cc1db;
   }
-  
   #nada {
     font-weight: bold;
   }
@@ -41,33 +40,26 @@
     margin-bottom: 0.75vw;
     width: 13vw;
   }
-  
   #Contact {
     margin-right: 3vw;
   }
-  
   #disabled {
     color: #5d5d5d;
   }
-  
   #mainUl {
     margin-right: 5.8vw;
   }
-  
   .upperImageContainer {
     width: 100%;
-  
     z-index: 9999;
   }
   #upperMainImg {
     width: 90%;
     float: right;
-  
     margin-top: 100px;
     filter: sepia(1) hue-rotate(149deg);
     opacity: 70%;
   }
-
   .mainUpperText {
     float: left;
     width: 35%;
@@ -100,7 +92,6 @@
   .mainUpperText button:hover {
     background-color: #5d5d5d;
   }
-  
   .middleSection {
     position: absolute;
     top: 53vw;
@@ -306,7 +297,6 @@
     top: 1.7vw;
     display: flex;
     justify-content: center;
-  
     overflow: hidden;
   }
   .referenceImage img {
@@ -348,7 +338,6 @@
     position: absolute;
     display: flex;
     justify-content: center;
-
     overflow: hidden;
   }
   .meImage img {
@@ -388,19 +377,15 @@
     text-align: center;
     height: 27vw;
     margin-top: 4.5vw;
-
   }
-
   #blogContainer img {
     object-fit: cover;
     width: 100%;
     height: 100%;
     padding: 0.25vw 0.75vw;
-
   }
   #blogCol{
     max-height: 100%;
-
   }
   #blogColWide{
     max-height: 100%;
@@ -432,7 +417,6 @@
   .contactMeSection button:hover {
     background-color: #5d5d5d;
   }
-
   .footer{
     position: absolute;
     top: 302.5vw;
@@ -475,7 +459,6 @@
     top:26%;
   }
   .leftSideFooter p{
-
     color: rgb(209, 209, 209);
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
@@ -484,7 +467,6 @@
     top:5.5vw;
   }
   .rightSideFooter p{
-
     color: rgb(209, 209, 209);
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
@@ -493,7 +475,6 @@
     top:5.5vw;
     right:0;
   }
-  
   .nav li a{
     padding-right: 1.2vw;
     font-family: "Roboto", sans-serif;
@@ -510,9 +491,7 @@
     bottom:7.8vw;
     left: -4vw;
     display: flex;
-
   }
-
   #linkedin{
     color: white;
     position: absolute;
@@ -556,13 +535,12 @@
     transition: 0.2s;
   }
  
-  @media (min-width: 992px) {
-    nav {
-      height: 6vw;
-    }
-  }
-  
+  /* Media Queries */
+
   @media (max-width: 992px) {
+    #blogContainer .row{
+      margin: 0;
+    }
     .mainUpperText {
       float: left;
       width: 40%;
@@ -588,7 +566,6 @@
       background-color: #02bafe;
       border: none;
     }
-    
     .nav-item a {
       font-family: "Roboto", sans-serif;
       font-weight: bolder;
@@ -601,7 +578,6 @@
     .nav-item {
       margin: auto;
     }
-  
     #logoTitle {
       font-family: "Roboto", sans-serif;
       font-size: 24px;
@@ -622,8 +598,7 @@
       margin: auto;
     }
   }
-  
-  
+   
   @media (max-width: 620px) {
     .footer{
       position: absolute;
@@ -672,7 +647,6 @@
       top:5.5vw;
     }
     .rightSideFooter p{
-  
       color: rgb(209, 209, 209);
       font-family: "Roboto", sans-serif;
       font-weight: lighter;
@@ -681,10 +655,8 @@
       top:5.5vw;
       right:0;
     }   
-
     .nav{
-    display: none;
-  
+    display: none;  
     } 
     #linkedin{
       color: white;
@@ -713,10 +685,6 @@
       right:0;
       font-size: 2.8vw;
     }
-    
-   
- 
-
     .contactMeSection{
       width: 100%;
       position: absolute;
@@ -754,7 +722,6 @@
       font-size: 5vw;
       text-align: center;
       margin-top: 1vw;
-      
     }
     #blogContainer{
       width: 95%;
@@ -762,9 +729,7 @@
       text-align: center;
       height: 45vw;
       margin-top: 4.5vw;
-  
     }
-  
     #blogContainer .row{
       margin: 0;
     }
@@ -773,12 +738,10 @@
       width: 100%;
       height: 100%;
       padding: 0.25vw 0.75vw;
-  
     }
     #blogCol{
       max-height: 100%;
       max-width: 50%;
-  
     }
     .aboutMeSection {
       width: 100%;
@@ -1009,7 +972,6 @@
       margin-bottom: 0;
       cursor: pointer;
     }
-  
     .middleSection {
       position: absolute;
       top: 125vw;
@@ -1053,7 +1015,18 @@
       font-size: 3vw;
       background-color: #02bafe;
       border: none;
-    }
-   
+    } 
   }
-  
+
+  @media (min-width: 1400px){
+    #cardsGridContainer{
+      max-width: 1920px
+    }
+  }
+
+  @media (min-width: 992px) {
+    nav {
+      height: 6vw;
+    }
+  }
+
